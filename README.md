@@ -1,3 +1,3 @@
-# (Proyecto programación en la web)
+# Proyecto Programación en la Web
 
-Este es mi proyecto para la materia de Programación en la Web en la Universidad Industrial de Santander.
+Este es mi proyecto para el curso O1 de Programación en la Web en la Universidad Industrial de Santander.

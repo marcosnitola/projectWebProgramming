@@ -6,12 +6,14 @@
 * contenido textual
 * imágenes de los platillos
 * api mapa
+* slides con los platillos
 
 ## Daniel
-# * armar el menú de platillos con nombre, descripción e imágenes
+* armar el menú de bebidas con nombre, descripción e imágenes
 
 ## Marcos
 * diseño general de las páginas (estilos)
+* desarrollo slides
 
 ## Archivos
 * inicio

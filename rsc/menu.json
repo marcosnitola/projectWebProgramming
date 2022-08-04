@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Hamburguesa de ternera",
+		"img": "",
+		"description": "Deliciosa hamburguesa compuesta por carne de res, carne de ternera, cebolla crispy, tomate y salsas de la casa."
+	},
+	{
+		"name": "Hamburguesa clásica",
+		"img": "",
+		"description": "La versión clásica, nuestra carne Angus, cebolla grille y queso cheddar, acompañada de papitas"
+	},
+	{
+		"name": "Hamburguesa de pollo",
+		"img": "",
+		"description": "Nuestra versión de chicken, un delicioso pollo crispy con verdura y salsas de la casa."
+	},
+	{
+		"name": "Hamburguesa mexicana",
+		"img": "",
+		"description": "Deliciosa hamburguesa compuesta de carne Angus, maíz tierno, guacamole, pimentón, pepinillos y queso cheddar."
+	},
+	{
+		"name": "Hamburguesa doble",
+		"img": "",
+		"description": "Doble carne Angus, tocineta y fusión de quesos"
+	},
+	{
+		"name": "la local",
+		"img": "",
+		"description": "Carne Angus, trocitos de piña, huevo frito y vegetales."
+	},
+	{
+		"name": "La clásica",
+		"img": "",
+		"description": "Carne Angus, pollo desmechado con maíz tierno, chorizo y arepa."
+	},
+	{
+		"name": "Hamburguesa de pescado",
+		"img": "",
+		"description": "Delicioso Salmon crispy con salsas de la casa y queso."
+	},
+	{
+		"name": "Hamburguesa veggie",
+		"img": "",
+		"description": "Deliciosa carne de lenteja y arveja, con guacamole y vegetales."
+	},
+]

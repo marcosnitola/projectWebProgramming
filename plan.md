@@ -21,3 +21,6 @@
 * puntos de venta
 * blog
 * formulario de contacto
+# Pendientes
+* estilos algunoas paginas
+* enlace base de datos

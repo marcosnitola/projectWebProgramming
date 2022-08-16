@@ -9,8 +9,8 @@
 * slides con los platillos
 
 ## Daniel
-* formulario pedidos en linea
-* agregar bebidas y variedades.
+* formulario pedidos en linea (check)
+* agregar bebidas y variedades.(check)
 
 ## Marcos
 * diseño general de las páginas (estilos)

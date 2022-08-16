@@ -10,6 +10,7 @@
 
 ## Daniel
 * formulario pedidos en linea
+* agregar bebidas y variedades.
 
 ## Marcos
 * diseño general de las páginas (estilos)

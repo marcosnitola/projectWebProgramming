@@ -9,7 +9,8 @@
 * slides con los platillos
 
 ## Daniel
-* armar el menú de bebidas con nombre, descripción e imágenes
+* formulario pedidos en linea
+* agregar bebidas y variedades.
 
 ## Marcos
 * diseño general de las páginas (estilos)
@@ -21,3 +22,6 @@
 * puntos de venta
 * blog
 * formulario de contacto
+# Pendientes
+* estilos algunoas paginas
+* enlace base de datos

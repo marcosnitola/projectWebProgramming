@@ -9,7 +9,7 @@
 * slides con los platillos
 
 ## Daniel
-* armar el menú de bebidas con nombre, descripción e imágenes
+* formulario pedidos en linea
 
 ## Marcos
 * diseño general de las páginas (estilos)

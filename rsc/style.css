@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 :root {
-	--c1: #F2A007;
-	--c2: #BF7330;
-	--c3: #D95407;
-	--c4: #BF8D7A;
-	--c5: #593831;
+	--c1: #F2A007; /* Yellow   */
+	--c2: #BF7330; /* Orange L */
+	--c3: #D95407; /* Orange D */
+	--c4: #BF8D7A; /* Brown L  */
+	--c5: #593831; /* Brown D  */
 }
 
 * {
@@ -17,24 +19,48 @@ body {
 	font-family: sans-serif;
 }
 
-/* theme */
-/* Color Theme Swatches in Hex */
-/* .Platillo-Petite-1-hex { color: #F2A007; }
-.Platillo-Petite-2-hex { color: #BF7330; }
-.Platillo-Petite-3-hex { color: #D95407; }
-.Platillo-Petite-4-hex { color: #BF8D7A; }
-.Platillo-Petite-5-hex { color: #593831; } */
+header {
+	background-color: var(--c2);
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
 
-/* Color Theme Swatches in RGBA */
-/* .Platillo-Petite-1-rgba { color: rgba(242, 160, 7, 1); }
-.Platillo-Petite-2-rgba { color: rgba(191, 114, 47, 1); }
-.Platillo-Petite-3-rgba { color: rgba(216, 83, 6, 1); }
-.Platillo-Petite-4-rgba { color: rgba(191, 140, 122, 1); }
-.Platillo-Petite-5-rgba { color: rgba(89, 56, 49, 1); } */
+nav {
+  display:flex;
+}
 
-/* Color Theme Swatches in HSLA */
-/* .Platillo-Petite-1-hsla { color: hsla(39, 94, 48, 1); }
-.Platillo-Petite-2-hsla { color: hsla(28, 60, 46, 1); }
-.Platillo-Petite-3-hsla { color: hsla(22, 94, 43, 1); }
-.Platillo-Petite-4-hsla { color: hsla(16, 35, 61, 1); }
-.Platillo-Petite-5-hsla { color: hsla(11, 29, 27, 1); } */
+nav ul {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ul li {}
+
+nav ul li a {
+  text-decoration: none;
+  display:block;
+  color: inherit;
+  padding: 1em;
+}
+
+nav ul li a:hover{
+  background-color: var(--c4);
+}
+
+.logo {
+	font-family: 'Caveat', cursive;
+	padding: 1em;
+}
+
+.heading {
+  background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/25/87/84/delicious-menu-of-our.jpg'); 
+  /* background-image: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000');
+  background-size: cover;*/
+  /*background: cover url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000') ; */
+  min-height: 400px;
+  height: 6vh;
+  color: #fff;
+}

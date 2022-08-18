@@ -20,10 +20,37 @@ body {
 }
 
 header {
-	background-color: var(--c2);
-	color: #fff;
+	color: var(--c1);
+	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
+}
+
+@font-face {
+  font-family: 'restaurantlogo';
+  src:
+    url('logo_glyph.ttf?ihlrdb') format('truetype'),
+  url('logo_glyph.svg?ihlrdb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.logosvg {
+	/* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'restaurantlogo' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	/* content: "\f1"; */
+	/* font-size: 3em; */
 }
 
 nav {

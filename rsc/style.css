@@ -27,27 +27,27 @@ header {
 }
 
 nav {
-  display:flex;
+	display:flex;
 }
 
 nav ul {
-  list-style-type: none;
-  display:flex;
-  flex-direction: row;
-  align-items: center;
+	list-style-type: none;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 nav ul li {}
 
 nav ul li a {
-  text-decoration: none;
-  display:block;
-  color: inherit;
-  padding: 1em;
+	text-decoration: none;
+	display:block;
+	color: inherit;
+	padding: 1em;
 }
 
 nav ul li a:hover{
-  background-color: var(--c4);
+	background-color: var(--c3);
 }
 
 .logo {
@@ -56,11 +56,12 @@ nav ul li a:hover{
 }
 
 .heading {
-  background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/25/87/84/delicious-menu-of-our.jpg'); 
-  /* background-image: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000');
-  background-size: cover;*/
-  /*background: cover url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000') ; */
-  min-height: 400px;
-  height: 6vh;
-  color: #fff;
+	/* background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/25/87/84/delicious-menu-of-our.jpg'); */
+	/* background-image: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000');
+	background-size: cover;*/
+	/*background: cover url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000') ; */
+	min-height: 400px;
+	height: 6vh;
+	color: #fff;
+	background: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000')
 }

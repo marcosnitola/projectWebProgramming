@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab&display=swap');
 
 :root {
 	--c1: #F2A007; /* Yellow   */
@@ -6,6 +6,11 @@
 	--c3: #D95407; /* Orange D */
 	--c4: #BF8D7A; /* Brown L  */
 	--c5: #593831; /* Brown D  */
+}
+
+h1,h2,h3,h4,h5,h6, .ff-caveat { 
+	font-family: 'Caveat', cursive;
+  font-weight: 500;
 }
 
 * {
@@ -16,7 +21,7 @@
 
 body {
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: 'Roboto Slab',  sans-serif;
 }
 
 header {
@@ -78,7 +83,6 @@ nav ul li a:hover{
 }
 
 .logo {
-	font-family: 'Caveat', cursive;
 	padding: 1em;
 }
 
@@ -86,9 +90,20 @@ nav ul li a:hover{
 	/* background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/25/87/84/delicious-menu-of-our.jpg'); */
 	/* background-image: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000');
 	background-size: cover;*/
-	/*background: cover url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000') ; */
-	min-height: 400px;
-	height: 6vh;
+	/*min-height: 400px;*/
+	/*height: 6vh;*/
 	color: #fff;
-	background: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000')
+  text-align: center;
+	background: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000') center/cover ;
 }
+
+.heading .shadow {
+  background: radial-gradient(#0003 , #000a 200%);
+  height: 100%;
+}
+
+.heading h1,
+.heading p {
+  padding: 30px 15px;
+}
+

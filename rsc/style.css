@@ -20,13 +20,23 @@ h1,h2,h3,h4,h5,h6, .ff-caveat {
 }
 
 body {
+  background-color: #e0e0e0;
 	font-size: 16px;
 	font-family: 'Roboto Slab',  sans-serif;
+}
+
+.wrap {
+  max-width: 1200px;
+  width:100%;
+  margin: auto;
 }
 
 header {
 	color: var(--c1);
 	background-color: #fff;
+}
+
+header .wrap {
 	display: flex;
 	justify-content: space-between;
 }
@@ -110,6 +120,11 @@ nav ul li a:hover{
   padding: 30px 15px;
 }
 
-main section {
+main section,
+footer section {
   padding: 15px;
+}
+
+main section {
+  background-color: #fff;
 }

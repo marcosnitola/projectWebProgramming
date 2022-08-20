@@ -35,7 +35,7 @@ header {
   font-family: 'restaurantlogo';
   src:
     url('logo_glyph.ttf?ihlrdb') format('truetype'),
-  url('logo_glyph.svg?ihlrdb#icomoon') format('svg');
+    url('logo_glyph.svg?ihlrdb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -43,17 +43,17 @@ header {
 
 .logosvg {
 	/* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'restaurantlogo' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  font-family: 'restaurantlogo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 	/* content: "\f1"; */
 	/* font-size: 3em; */
 }
@@ -79,7 +79,8 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-	background-color: var(--c3);
+	background-color: var(--c1);
+  color: #fff;
 }
 
 .logo {
@@ -95,11 +96,13 @@ nav ul li a:hover{
 	color: #fff;
   text-align: center;
 	background: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000') center/cover ;
+  padding: 0;
 }
 
 .heading .shadow {
   background: radial-gradient(#0003 , #000a 200%);
   height: 100%;
+  padding: 15px;
 }
 
 .heading h1,
@@ -107,3 +110,6 @@ nav ul li a:hover{
   padding: 30px 15px;
 }
 
+main section {
+  padding: 15px;
+}

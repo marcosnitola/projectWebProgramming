@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab&display=swap');
 
 :root {
-	--c1: #F2A007; /* Yellow   */
-	--c2: #BF7330; /* Orange L */
-	--c3: #D95407; /* Orange D */
-	--c4: #BF8D7A; /* Brown L  */
-	--c5: #593831; /* Brown D  */
+	--c1l: #F5E8E4;
+	--c1:  #F2A007; /* Yellow   */
+	--c1d: #A57262;
+	--c2:  #BF7330; /* Orange L */
+	--c3:  #D95407; /* Orange D */
+	--c4:  #BF8D7A; /* Brown L  */
+	--c5:  #593831; /* Brown D  */
 }
 
-h1,h2,h3,h4,h5,h6, .ff-caveat { 
+h1,h2,h3,h4,h5,h6, .ff-caveat {
 	font-family: 'Caveat', cursive;
   font-weight: 500;
 }
@@ -127,4 +129,9 @@ footer section {
 
 main section {
   background-color: #fff;
+}
+
+footer {
+	background: var(--c1d);
+	color: var(--c1l);
 }

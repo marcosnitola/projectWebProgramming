@@ -9,8 +9,8 @@
 * slides con los platillos
 
 ## Daniel
-* formulario pedidos en linea (check)
-* agregar bebidas y variedades.(check)
+* json de puntero de mapa
+* 
 
 ## Marcos
 * diseño general de las páginas (estilos)

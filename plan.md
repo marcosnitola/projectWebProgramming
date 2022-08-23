@@ -10,11 +10,12 @@
 
 ## Daniel
 * json de puntero de mapa
-* 
+* estilos formularios
 
 ## Marcos
 * diseño general de las páginas (estilos)
 * desarrollo slides
+* importar iconos
 
 ## Archivos
 * inicio

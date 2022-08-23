@@ -15,6 +15,10 @@ h1,h2,h3,h4,h5,h6, .ff-caveat {
   font-weight: 500;
 }
 
+a {color: var(--c1); text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:focus {}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -36,6 +40,10 @@ body {
 header {
 	color: var(--c1);
 	background-color: #fff;
+}
+
+header a:hover {
+	text-decoration: none;
 }
 
 header .wrap {
@@ -84,13 +92,12 @@ nav ul {
 nav ul li {}
 
 nav ul li a {
-	text-decoration: none;
 	display:block;
-	color: inherit;
 	padding: 1em;
 }
 
 nav ul li a:hover{
+	text-decoration: none;
 	background-color: var(--c1);
   color: #fff;
 }
@@ -129,6 +136,15 @@ footer section {
 
 main section {
   background-color: #fff;
+}
+
+section h2,
+section h3,
+section h4,
+section h5,
+section h6,
+section p{
+	margin: 10px;
 }
 
 footer {

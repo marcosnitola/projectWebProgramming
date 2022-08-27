@@ -52,16 +52,6 @@ header .wrap {
 	justify-content: space-between;
 }
 
-@font-face {
-  font-family: 'restaurantlogo';
-  src:
-    url('logo_glyph.ttf?ihlrdb') format('truetype'),
-    url('logo_glyph.svg?ihlrdb#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
 .logosvg {
 	/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;

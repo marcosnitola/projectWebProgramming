@@ -50,6 +50,7 @@ header a:hover {
 header .wrap {
 	display: flex;
 	justify-content: space-between;
+  align-items: center;
 }
 
 .logosvg {
@@ -66,11 +67,7 @@ header .wrap {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 	/* content: "\f1"; */
-	/* font-size: 3em; */
-}
-
-nav {
-	display:flex;
+	font-size: 0.9em;
 }
 
 nav ul {
@@ -85,6 +82,7 @@ nav ul li {}
 nav ul li a {
 	display:block;
 	padding: 1em;
+  line-height: 2em;
 }
 
 nav ul li a:hover{
@@ -95,6 +93,7 @@ nav ul li a:hover{
 
 .logo {
 	padding: 1em;
+  line-height: 2em;
 }
 
 .heading {

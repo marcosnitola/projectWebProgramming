@@ -115,9 +115,14 @@ nav ul li a:hover{
   padding: 15px;
 }
 
+.heading h1 {
+	padding: 15px;
+	font-size: 2em;
+}
+
 .heading h1,
 .heading p {
-  padding: 30px 15px;
+  /* padding: 30px 15px; */
 }
 
 main section,

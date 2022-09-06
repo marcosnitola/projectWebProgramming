@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="rsc/style.css">
+		<script src="rsc/main.js" charset="utf-8"></script>
+      {% block extrahead %}
+      {% endblock extrahead %}
+	</head>
+	<body onload="init()">
+		<header>
+      <div class="wrap">
+        <div class="logo">
+          <h1><a href="index.html">
+						<span class="logosvg">&#xe8ff;</span>
+						L'Restoracio</a>
+          </h1>
+          <!-- <span class="lema">Un restaurante a tus necesidades</span> -->
+        </div>
+        <nav>
+          <ul>
+            <li><a href="page/map.html"><i class="icon-location"></i> Puntos de servicio</a></li>
+            <li><a href="page/order.html"><i class="icon-pencil"></i> Pedido en línea</a></li>
+            <li><a href="page/contact.html"><i class="icon-phone"></i> Contacto</a></li>
+            <li><a href="page/menu.html"><i class="icon-list"></i> Menú completo</a></li>
+          </ul>
+        </nav>
+      </div>
+		</header>
+		<main class="wrap">
+      {% block content %}
+      {% endblock content %}
+		</main>
+		<footer>
+      <div class="wrap">
+        <!-- Contactos -->
+        <section>
+          <h3>Contáctenos</h3>
+          <p>Siguenos en nuestras redes sociales</p>
+          <ul>
+            <li>
+              <a><i class="icon-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a><i class="icon-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a><i class="icon-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a><i class="icon-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+		</footer>
+	</body>
+</html>

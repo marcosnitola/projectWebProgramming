@@ -1,60 +1,34 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<base href="../" >
-		<title>Formulario de contacto</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="rsc/style.css">
-		<script src="rsc/main.js" charset="utf-8"></script>
-	</head>
-  <body>
-    <!-- BARRA DE NAVEGACION-->
-    <div class="container">
-        <div class="navbar">
-            <img src="./logo.png" class="logo" alt="Main Logo">
+{% extends 'base.html' %}
+{% block extrahead %}
+<title>Formulario de contacto</title>
+{% endblock extrahead %}
+{% block content %}
+<section class="heading">
+  <h2>Formulario de contacto</h2>
+  <p>Acá podras dejar tus datos y nos pondremos en contacto contigo</p>
+</section>
+<section class="form-contact">
+  <header>
+    <span>
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </span>
+  </header>
 
-            <p>Bienvenido a la  <em>página</em> de <i>inicio</i> acá </strong>podras dejar tus datos y nos pondremos en contacto contigo </p>
-            <h3> Espero disfrutes.</h3>
+  <form action="" class="contact" method="POST">
+    <label for="nombres">Nombres</label>
+    <input type="text" name="nombres" id="nombres">
 
+    <label for="correo">Correo</label>
+    <input type="text" name="correo" id="correo">
 
-            <ul>
-                <li><a href ="./contact.html">contactos</a></li>
-            </ul>
-            <ul>
-                <li><a href ="gallery/galleria.html">galerias</a></li>
-            </ul>
-            <ul>
-                <li><a href ="home/inicio.html">inicio</a></li>
-            </ul>
+    <label for="nombres">Celular</label>
+    <input type="text" name="celular" id="celular">
 
-        </div>
-
-    </div>
-
-    <section class="form-contact">
-        <header>
-          <span>
-            <i class="fa fa-paper-plane" aria-hidden="true"></i>
-          </span>
-        </header>
-
-        <form action="" class="contact" method="POST">
-          <label for="nombres">Nombres</label>
-          <input type="text" name="nombres" id="nombres">
-
-          <label for="correo">Correo</label>
-          <input type="text" name="correo" id="correo">
-
-          <label for="nombres">Celular</label>
-          <input type="text" name="celular" id="celular">
-
-          <label for="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="mensaje"></textarea>
-          <input type="submit" value="Enviar">
+    <label for="mensaje">Mensaje</label>
+    <textarea name="mensaje" id="mensaje"></textarea>
+    <input type="submit" value="Enviar">
 
 
-        </form>
-      </section>
-</body>
-</html>
+  </form>
+</section>
+{% endblock content %}

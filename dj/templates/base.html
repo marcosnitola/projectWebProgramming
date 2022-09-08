@@ -22,8 +22,8 @@
         <nav>
           <ul>
             <li><a href="{% url 'map' %}"><i class="icon-location"></i> Puntos de servicio</a></li>
-            <li><a href="page/order.html"><i class="icon-pencil"></i> Pedido en línea</a></li>
-            <li><a href="page/contact.html"><i class="icon-phone"></i> Contacto</a></li>
+            <li><a href="{% url 'order' %}"><i class="icon-pencil"></i> Pedido en línea</a></li>
+            <li><a href="{% url 'contact' %}"><i class="icon-phone"></i> Contacto</a></li>
             <li><a href="{% url 'menu' %}"><i class="icon-list"></i> Menú completo</a></li>
           </ul>
         </nav>

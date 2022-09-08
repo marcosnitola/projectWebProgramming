@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
-
+{% load static  %}
 
 {% block extrahead %}
 <title>Puntos de servicio</title>
-<script src="rsc/maps.js" charset="utf-8"></script>
+<script src="{% static 'js/maps.js' %}" charset="utf-8"></script>
 {% endblock extrahead %}
 {% block content %}
       <section>

@@ -13,3 +13,8 @@ def index(request):
     context = {}
     #respuesta
     return HttpResponse(template.render(context,request))
+
+def map (request):
+    template = loader.get_template('map.html')
+    context = {}
+    return HttpResponse(template.render(context, request))

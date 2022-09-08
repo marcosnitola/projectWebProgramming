@@ -9,13 +9,16 @@
 * slides con los platillos
 
 ## Daniel
-* json de puntero de mapa
+* json de puntero de mapa [ok]
 * estilos formularios
+* poner URL imágenes faltantes y precios a los platillos en el archivo rsc/menu.json
 
 ## Marcos
 * diseño general de las páginas (estilos)
 * desarrollo slides
-* importar iconos
+* importar iconos [ok]
+* mostrar la lista de platillos con plantillas Django (alternativamente, usar menu.json con js)
+* 
 
 ## Archivos
 * inicio

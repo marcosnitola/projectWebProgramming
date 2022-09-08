@@ -147,6 +147,11 @@ footer {
 	color: var(--c1l);
 }
 
+footer ul {
+  margin: 10px;
+  padding-left: 20px;
+}
+
 /* Media Queries */
 
 @media (max-width: 850px){

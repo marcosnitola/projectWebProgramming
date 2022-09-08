@@ -152,6 +152,9 @@ footer ul {
   padding-left: 20px;
 }
 
+footer a {color: #fff;}
+footer a:hover {color: var(--c1l); text-decoration: none;}
+
 /* Media Queries */
 
 @media (max-width: 850px){

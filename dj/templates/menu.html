@@ -2,11 +2,22 @@
 {% load static %}
 
 {% block extrahead %}
-<title>Restaurante</title>
+<title>Menú del restaurante</title>
 <script src="{% static 'js/menu.js' %}" charset="utf-8"></script>
 {% endblock extrahead %}
 {% block content %}
 <section>
-  <h2></h2>
+  <h2>Menú completo</h2>
+  <p>Aquí podrás encontrar el menú completo</p>
+</section>
+<section>
+  <h2>Menú de platillos</h2>
+  <ul>
+    {% if menu_list %}
+    
+    {% else %}
+    <li>salió mal</li>
+    {% endif %}
+  </ul>
 </section>
 {% endblock content %}

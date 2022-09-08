@@ -146,3 +146,11 @@ footer {
 	background: var(--c1d);
 	color: var(--c1l);
 }
+
+/* Media Queries */
+
+@media (max-width: 850px){
+  header .wrap {
+    flex-direction: column;
+  }
+}

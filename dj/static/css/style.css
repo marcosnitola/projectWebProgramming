@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab&display=swap');
-@import "icons/icomoon.css";
+@import url("../icons/icomoon.css");
 
 :root {
 	--c1l: #F5E8E4;

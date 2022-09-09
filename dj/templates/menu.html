@@ -12,12 +12,12 @@
 </section>
 <section>
   <h2>Menú de platillos</h2>
-  <ul>
-    {% if menu_list %}
-    
-    {% else %}
-    <li>salió mal</li>
-    {% endif %}
-  </ul>
+  {% for platillo in menu_list %}
+  <article>
+    <img src="{{ platillo.img_url }}">
+    <h3>{{ platillo.nombre }}</h3>
+    <p>{{ platillo.descripcion }}</p>
+  </article>
+  {% endfor %}
 </section>
 {% endblock content %}

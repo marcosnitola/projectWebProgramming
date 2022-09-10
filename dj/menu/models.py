@@ -6,6 +6,7 @@ class Categoria(models.Model):
 
 class Platillo(models.Model):
     nombre = models.CharField(max_length=64)
+    precio = models.PositiveIntegerField()
     tipo = models.ForeignKey(Categoria, on_delete=models.CASCADE)
     descripcion = models.CharField(max_length=128)
     img_url = models.CharField(max_length=256)

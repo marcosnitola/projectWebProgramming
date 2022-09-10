@@ -1,72 +1,73 @@
 [
 	{
 		"name": "Hamburguesa de ternera",
-		"img": "",
-		"description": "Deliciosa hamburguesa compuesta por carne de res, carne de ternera, cebolla crispy, tomate y salsas de la casa."
+		"img": "https://www.recetasderechupete.com/wp-content/uploads/2015/03/hamburguesa_ternera_cebolla.jpg?width=1200&enable=upscale",
+		"description": "Deliciosa hamburguesa compuesta por carne de res, carne de ternera, cebolla crispy, tomate y salsas de la casa.su precio es de: 15000"
 	},
 	{
 		"name": "Hamburguesa clásica",
-		"img": "",
-		"description": "La versión clásica, nuestra carne Angus, cebolla grille y queso cheddar, acompañada de papitas"
+		"img": "https://www.tqma.com.ec/images/com_yoorecipe/banner_superior/15685_1.jpg",
+		"description": "La versión clásica, nuestra carne Angus, cebolla grille y queso cheddar, acompañada de papitas.               su precio es de: 12000"
 	},
 	{
 		"name": "Hamburguesa de pollo",
-		"img": "",
-		"description": "Nuestra versión de chicken, un delicioso pollo crispy con verdura y salsas de la casa."
+		"img": "https://www.recetasderechupete.com/wp-content/uploads/2019/10/Hamburguesa-de-pescado.jpg",
+		"description": "Nuestra versión de chicken, un delicioso pollo crispy con verdura y salsas de la casa. Su precio es 22000"
 	},
 	{
 		"name": "Hamburguesa mexicana",
-		"img": "",
-		"description": "Deliciosa hamburguesa compuesta de carne Angus, maíz tierno, guacamole, pimentón, pepinillos y queso cheddar."
+		"img": "https://dam.cocinafacil.com.mx/wp-content/uploads/2018/06/hamburguesa-mexicana.jpg",
+		"description": "Deliciosa hamburguesa compuesta de carne Angus, maíz tierno, guacamole, pimentón, pepinillos y queso cheddar. Su precio es 34000"
 	},
 	{
 		"name": "Hamburguesa doble",
-		"img": "",
-		"description": "Doble carne Angus, tocineta y fusión de quesos"
+		"img": "https://www.tqma.com.ec/images/com_yoorecipe/banner_superior/15075_1.jpg",
+		"description": "Doble carne Angus, tocineta y fusión de quesos. Su precio es 13000"
 	},
 	{
 		"name": "la local",
-		"img": "",
-		"description": "Carne Angus, trocitos de piña, huevo frito y vegetales."
+		"img": "https://cdnb.20m.es/sites/123/2022/07/Hamburguesa-donut-02-620x409.jpg",
+		"description": "Carne Angus, trocitos de piña, huevo frito y vegetales. Su precio es 19000"
 	},
 	{
 		"name": "La clásica",
-		"img": "",
-		"description": "Carne Angus, pollo desmechado con maíz tierno, chorizo y arepa."
+		"img": "https://allavoy.com.co/wp-content/uploads/2022/03/CLASICA.png",
+		"description": "Carne Angus, pollo desmechado con maíz tierno, chorizo y arepa. Su precio es 23000"
 	},
 	{
 		"name": "Hamburguesa de pescado",
-		"img": "",
-		"description": "Delicioso Salmon crispy con salsas de la casa y queso."
+		"img": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/hamburguesa-de-pescado.jpg",
+		"description": "Delicioso Salmon crispy con salsas de la casa y queso. su precio es 23000"
 	},
 	{
 		"name": "Hamburguesa veggie",
-		"img": "",
-		"description": "Deliciosa carne de lenteja y arveja, con guacamole y vegetales."
+		"img": "https://saposyprincesas.elmundo.es/wp-content/uploads/2016/02/recetas_hamburguesas_veggie_para_ninos.jpg",
+		"description": "Deliciosa carne de lenteja y arveja, con guacamole y vegetales. su precio es 25000"
 	},
+	
 	{
 		"name": "Limonada cerezada",
 		"img": "https://i0.wp.com/pimientospizzeria.com/wp-content/uploads/2022/05/limonada-de-cereza.png?fit=1200%2C1400&ssl=1",
-		"description": "Deliciosa bebida con ricas cerezas"
+		"description": "Deliciosa bebida con ricas cerezas. Su precio es 4000"
 	},
 	{
 		"name": "Limonada de coco",
 		"img": "https://antojandoando.com/wp-content/uploads/2017/07/limonada-coco-pint1-pq.jpg",
-		"description": "Bebida refrescante playera"
+		"description": "Bebida refrescante playera. su precio es 8000"
 	},
 	{
 		"name": "Limonada maracuyá",
 		"img": "https://www.laprensa.hn/binrepository/1020x829/0c125/1020d580/none/11004/NJKH/limonada1.1_LP765379_MG79216165.jpg",
-		"description": "bebida frutal deliciosa"
+		"description": "bebida frutal deliciosa. Su precio es 6000."
 	},
 	{
 		"name": "Malteada de fresa",
 		"img": "https://www.vidactual.com/rcpmaker/wp-content/uploads/2020/09/Malteadafresa.png",
-		"description": "Rica malteada de fresa y crema chantillí"
+		"description": "Rica malteada de fresa y crema chantillí. Su precio es 7000."
 	},
 	{
 		"name": "Malteada de chocolate",
 		"img": "https://www.cardamomo.news/__export/1604790909393/sites/debate/img/2020/11/07/malteada_de_chocolate_crop1604790839400.jpg_2122908805.jpg",
-		"description": "Deliciosa malteada con cacao y menta."
+		"description": "Deliciosa malteada con cacao y menta. Su precio es 10000."
 	}
 ]

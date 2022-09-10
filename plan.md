@@ -17,8 +17,8 @@
 * diseño general de las páginas (estilos)
 * desarrollo slides
 * importar iconos [ok]
-* mostrar la lista de platillos con plantillas Django (alternativamente, usar menu.json con js)
-* 
+* mostrar la lista de platillos con plantillas Django (alternativamente, usar menu.json con js) [ok]
+* mostrar en el inicio los platos con mayor popularidad 
 
 ## Archivos
 * inicio

@@ -9,13 +9,29 @@
 <section>
   <h2>Menú completo</h2>
   <p>Aquí podrás encontrar el menú completo</p>
+  <ul>
+    <li><a href="#food_list">Comidas</a></li>
+    <li><a href="#drink_list">Bebidas</a></li>
+  </ul>
 </section>
-<section>
-  <h2>Menú de platillos</h2>
-  {% for platillo in menu_list %}
+<section id="food_list">
+  <h2>Menú de comidas</h2>
+  {% for platillo in comida_list %}
   <article>
     <img src="{{ platillo.img_url }}">
     <h3>{{ platillo.nombre }}</h3>
+    <p>{{ platillo.precio }}$</p>
+    <p>{{ platillo.descripcion }}</p>
+  </article>
+  {% endfor %}
+</section>
+<section id="drink_list">
+  <h2>Menú de bebidas</h2>
+  {% for platillo in bebida_list %}
+  <article>
+    <img src="{{ platillo.img_url }}">
+    <h3>{{ platillo.nombre }}</h3>
+    <p>{{ platillo.precio }}$</p>
     <p>{{ platillo.descripcion }}</p>
   </article>
   {% endfor %}

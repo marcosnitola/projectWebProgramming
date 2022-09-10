@@ -96,7 +96,7 @@ nav ul li a:hover{
   line-height: 2em;
 }
 
-.heading {
+.heading-bg {
 	/* background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/25/87/84/delicious-menu-of-our.jpg'); */
 	/* background-image: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000');
 	background-size: cover;*/
@@ -108,20 +108,32 @@ nav ul li a:hover{
   padding: 0;
 }
 
-.heading .shadow {
+.heading-bg .shadow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background: radial-gradient(#0003 , #000a 200%);
   height: 100%;
   padding: 15px;
 }
 
-.heading h1 {
+.heading-bg .shadow > * {
+  padding: 20px 30px;
+}
+
+.heading-bg h1 {
 	padding: 15px;
 	font-size: 2em;
 }
 
-.heading h1,
-.heading p {
+.heading-bg h1,
+.heading-bg p {
   /* padding: 30px 15px; */
+}
+
+.heading-bg .logosvg {
+  font-size: 10em;
+  display: block;
 }
 
 main section,

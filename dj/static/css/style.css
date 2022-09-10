@@ -138,11 +138,12 @@ nav ul li a:hover{
 
 main section,
 footer section {
-  padding: 15px;
+  padding: 1em;
 }
 
 main section {
   background-color: #fff;
+  margin: 1em;
 }
 
 section h2,
@@ -164,8 +165,16 @@ footer ul {
   padding-left: 20px;
 }
 
-footer a {color: #fff;}
-footer a:hover {color: var(--c1l); text-decoration: none;}
+footer .btn-group {
+  display: flex;
+}
+
+footer .btn-group a {
+  padding: 10px;
+}
+
+footer a {color: var(--c1l);}
+footer a:hover {color: #fff; text-decoration: none;}
 
 /* Media Queries */
 

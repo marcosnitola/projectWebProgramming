@@ -20,13 +20,20 @@
   <h2>Mira nuestros platos más pedidos</h2>
   <div class="slide_container">
     <div class="slides">
-      <div class="slide">
-      
+      {% for platillo_fav in platillos_populares %}
+      <div class="slide dishcard">
+        <div class="img" style="background-image: url({{ platillo_fav.img_url }})"></div>
+        <div class="desc">
+          <h3 class="title">{{ platillo_fav.nombre }}</h3>
+          <span class="price">{{ platillo_fav.precio }} $</span>
+          <p>{{ platillo_fav.descripcion }}</p>
+        </div>
       </div>
+      {% endfor %}
     </div>
     <div class="slide_controls">
-      <button type="button" class="slide_btn_left"></button>
-      <button type="button" class="slide_btn_right"></button>
+      <button type="button" class="slide_btn_left"><i class="icon-keyboard_arrow_left"></i></button>
+      <button type="button" class="slide_btn_right"><i class="icon-keyboard_arrow_right"></i></button>
     </div>
   </div>
 </section>

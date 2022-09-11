@@ -20,6 +20,8 @@ a {color: var(--c1); text-decoration: none;}
 a:hover {text-decoration: underline;}
 a:focus {}
 
+img {width: 100%;}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -150,6 +152,31 @@ nav ul li a:hover{
 .heading-bg .logosvg {
   font-size: 10em;
   display: block;
+}
+
+.dishcard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1em 0;
+}
+
+.dishcard .img {
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 16 / 9;
+}
+
+.dishcard .desc {
+  padding: 1em;
+}
+
+.dishcard .price {
+  background-color: var(--c1d);
+  color: #fff;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 12px;
+  display: inline-block;
 }
 
 .slide_container {}

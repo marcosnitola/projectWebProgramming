@@ -152,6 +152,9 @@ nav ul li a:hover{
   display: block;
 }
 
+.slide_container {}
+.slide_container .slides {}
+
 main section,
 footer section {
   padding: 1em;

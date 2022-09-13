@@ -6,25 +6,25 @@
 
 {% block content %}
 <section class="form-delivery">
-  <form action="done/" method="POST">
-  <div class="group">
-    <input type="text" name="nombre" id="nombre" >
+  <form action="" method="POST">
+  <div class="input-group">
+    <input type="text" required name="nombre" id="nombre" >
     <label for="nombre">Tu nombre</label>
   </div>
-  <div class="group">
-    <input type="text" name="direccion" id="direccion" >
+  <div class="input-group">
+    <input type="text" required name="direccion" id="direccion" >
     <label for="direccion">La dirección donde quieres recibir el pedido</label>
   </div>
-  <div class="group">
-    <input type="email" name="correo" id="correo" >
+  <div class="input-group">
+    <input type="email" required name="correo" id="correo" >
     <label for="correo">Tu correo</label>
   </div>
-  <div class="group">
-    <textarea name="pedidos" id="pedidos"></textarea>
+  <div class="input-group">
+    <textarea name="pedidos" required id="pedidos"></textarea>
     <label for="pedido">Tus pedidos</label>
   </div>
   <p>Estoy de acuerdo con <a href="#"> terminos y condiciones</a></p>
-  <input class="boton" type="submit" value="Pedir">
+  <input type="submit" value="Pedir">
   </form>
 </section>
 {% endblock content %}

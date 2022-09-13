@@ -1,34 +1,42 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block extrahead %}
 <title>Formulario de contacto</title>
 {% endblock extrahead %}
 {% block content %}
 <section class="heading">
+  {% if request.POST %}
+  <p>Tus datos han sido enviados exitosamente</p>
+  {% else %}
   <h2>Formulario de contacto</h2>
   <p>Acá podras dejar tus datos y nos pondremos en contacto contigo</p>
+  {% endif %}
 </section>
 <section class="form-contact">
-  <header>
-    <span>
-      <i class="fa fa-paper-plane" aria-hidden="true"></i>
-    </span>
-  </header>
 
   <form action="" class="contact" method="POST">
-    <label for="nombres">Nombres</label>
-    <input type="text" name="nombres" id="nombres">
+    <div class="input-group">
+      <input type="text" required name="nombres" id="nombres">
+      <label for="nombres">Nombres</label>
+    </div>
 
-    <label for="correo">Correo</label>
-    <input type="text" name="correo" id="correo">
+    <div class="input-group">
+      <input type="text" required name="correo" id="correo">
+      <label for="correo">Correo</label>
+    </div>
 
-    <label for="nombres">Celular</label>
-    <input type="text" name="celular" id="celular">
+    <div class="input-group">
+      <input type="number" required name="celular" id="celular">
+      <label for="nombres">Celular</label>
+    </div>
 
-    <label for="mensaje">Mensaje</label>
-    <textarea name="mensaje" id="mensaje"></textarea>
+    <div class="input-group">
+      <textarea name="mensaje" required id="mensaje"></textarea>
+      <label for="mensaje">Mensaje</label>
+    </div>
+
     <input type="submit" value="Enviar">
-
-
   </form>
 </section>
+<script src="{% static 'js/forms.js' %}"></script>
 {% endblock content %}

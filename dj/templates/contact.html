@@ -5,16 +5,16 @@
 {% endblock extrahead %}
 {% block content %}
 <section class="heading">
+  <h2>Formulario de contacto</h2>
   {% if request.POST %}
   <p>Tus datos han sido enviados exitosamente</p>
   {% else %}
-  <h2>Formulario de contacto</h2>
   <p>Acá podras dejar tus datos y nos pondremos en contacto contigo</p>
   {% endif %}
 </section>
 <section class="form-contact">
-
   <form action="" class="contact" method="POST">
+    {% csrf_token %}
     <div class="input-group">
       <input type="text" required name="nombres" id="nombres">
       <label for="nombres">Nombres</label>

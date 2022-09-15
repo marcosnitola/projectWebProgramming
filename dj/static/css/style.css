@@ -64,6 +64,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 2000;
 }
 
 header a:hover {
@@ -140,6 +141,22 @@ nav ul li a:hover{
   margin-inline-end: 0.4em;
 }
 
+.heading {
+  background-color: var(--c1);
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+}
+
+.heading h2 {
+  border-bottom: 2px dashed #fff;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.heading a { color: inherit;}
+.heading ul {text-align: left;}
+
 .heading-bg {
 	/* background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/25/87/84/delicious-menu-of-our.jpg'); */
 	/* background-image: url('https://img.freepik.com/foto-gratis/mesa-banquete-aperitivos_144627-18361.jpg?w=2000');
@@ -156,7 +173,7 @@ nav ul li a:hover{
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: radial-gradient(#0003 , #000a 200%);
+  background: radial-gradient(#0006 , #000c 200%);
   height: 100%;
   padding: 15px;
 }
@@ -189,6 +206,7 @@ nav ul li a:hover{
 .dishcard .img {
   background-size: cover;
   background-position: center;
+  background-color: var(--c1l);
   aspect-ratio: 16 / 9;
 }
 

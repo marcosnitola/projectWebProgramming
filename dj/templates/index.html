@@ -27,6 +27,7 @@
           <h3 class="title">{{ platillo_fav.nombre }}</h3>
           <span class="price">{{ platillo_fav.precio }} $</span>
           <p>{{ platillo_fav.descripcion }}</p>
+          <p class="buy"><a href="{% url 'order' %}?id={{ platillo_fav.id }}" ><i class="icon-add_shopping_cart"></i> Comprar</a></p> 
         </div>
       </div>
       {% endfor %}

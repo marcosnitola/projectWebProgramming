@@ -198,9 +198,19 @@ footer section {
   padding: 1em;
 }
 
+section ul {
+  margin: 10px;
+  padding-left: 20px;
+}
+
 main section {
   background-color: #fff;
   margin: 1em 0;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
 }
 
 form .input-group {
@@ -210,6 +220,7 @@ form .input-group {
 form .input-group input ,
 form .input-group textarea {
   font-family: inherit;
+  width: 100%;
   font-size: inherit;
   padding: 0.5em;
   border: none;

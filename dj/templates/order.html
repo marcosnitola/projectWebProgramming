@@ -7,25 +7,26 @@
 
 {% block content %}
 <section class="form-delivery">
+  <h2>Pida lo que se te antoje</h2>
   <form action="" method="POST">
-  <div class="input-group">
-    <input type="text" required name="nombre" id="nombre" >
-    <label for="nombre">Tu nombre</label>
-  </div>
-  <div class="input-group">
-    <input type="text" required name="direccion" id="direccion" >
-    <label for="direccion">La dirección donde quieres recibir el pedido</label>
-  </div>
-  <div class="input-group">
-    <input type="email" required name="correo" id="correo" >
-    <label for="correo">Tu correo</label>
-  </div>
-  <div class="input-group">
-    <textarea name="pedidos" required id="pedidos"></textarea>
-    <label for="pedido">Tus pedidos</label>
-  </div>
-  <p>Estoy de acuerdo con <a href="#"> terminos y condiciones</a></p>
-  <input type="submit" value="Pedir">
+    <div class="input-group">
+      <input type="text" required name="nombre" id="nombre" >
+      <label for="nombre">Tu nombre</label>
+    </div>
+    <div class="input-group">
+      <input type="text" required name="direccion" id="direccion" >
+      <label for="direccion">La dirección donde quieres recibir el pedido</label>
+    </div>
+    <div class="input-group">
+      <input type="email" required name="correo" id="correo" >
+      <label for="correo">Tu correo</label>
+    </div>
+    <div class="input-group">
+      <textarea name="pedidos" required id="pedidos"></textarea>
+      <label for="pedido">Tus pedidos</label>
+    </div>
+    <p>Estoy de acuerdo con <a href="#"> terminos y condiciones</a></p>
+    <input type="submit" value="Pedir">
   </form>
 </section>
 <script src="{% static 'js/forms.js' %}"></script>

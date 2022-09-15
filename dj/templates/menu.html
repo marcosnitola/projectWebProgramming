@@ -24,6 +24,7 @@
       <span class="price">{{ platillo.precio }} $</span>
       <p>
       {{ platillo.descripcion }}</p>
+      <p class="buy"><a href="{% url 'order' %}?id={{ platillo.id }}" ><i class="icon-add_shopping_cart"></i> Comprar</a></p> 
     </div>
   </div>
   {% endfor %}
@@ -32,11 +33,12 @@
   <h2>Menú de bebidas</h2>
   {% for platillo in bebida_list %}
   <div class="dishcard">
-    <img src="{{ platillo.img_url }}">
-    <div>
-      <h3>{{ platillo.nombre }}</h3>
-      <p>{{ platillo.precio }}$</p>
-      <p>{{ platillo.descripcion }}</p>
+    <div class="img" style="background-image: url({{ platillo.img_url }})"></div>
+    <div class="desc">
+      <h3 class="title">{{ platillo.nombre }}</h3>
+      <span class="price">{{ platillo.precio }} $</span>
+      <p>
+      {{ platillo.descripcion }}</p>
     </div>
   </div>
   {% endfor %}

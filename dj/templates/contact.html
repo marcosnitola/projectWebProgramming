@@ -5,10 +5,10 @@
 {% endblock extrahead %}
 {% block content %}
 <section class="heading">
-  <h2>Formulario de contacto</h2>
   {% if request.POST %}
-  <p>Tus datos han sido enviados exitosamente</p>
+  <h2>Tus datos han sido enviados exitosamente</h2>
   {% else %}
+  <h2>Formulario de contacto</h2>
   <p>Acá podras dejar tus datos y nos pondremos en contacto contigo</p>
   {% endif %}
 </section>
@@ -16,22 +16,22 @@
   <form action="" class="contact" method="POST">
     {% csrf_token %}
     <div class="input-group">
-      <input type="text" required name="nombres" id="nombres">
+      <input type="text" maxlength="128" required name="nombres" id="nombres">
       <label for="nombres">Nombres</label>
     </div>
 
     <div class="input-group">
-      <input type="text" required name="correo" id="correo">
+      <input type="email" maxlength="512" required name="correo" id="correo">
       <label for="correo">Correo</label>
     </div>
 
     <div class="input-group">
-      <input type="number" required name="celular" id="celular">
+      <input type="tel" pattern="[0-9]{1,10}" required name="celular" id="celular">
       <label for="nombres">Celular</label>
     </div>
 
     <div class="input-group">
-      <textarea name="mensaje" required id="mensaje"></textarea>
+      <textarea name="mensaje" maxlength="1024" required id="mensaje"></textarea>
       <label for="mensaje">Mensaje</label>
     </div>
 

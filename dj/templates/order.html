@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block extrahead %}
 <title>Formulario de pedidos</title>
@@ -27,4 +28,5 @@
   <input type="submit" value="Pedir">
   </form>
 </section>
+<script src="{% static 'js/forms.js' %}"></script>
 {% endblock content %}

@@ -104,6 +104,11 @@ nav #btn-menu {
   line-height: 1em;
 }
 
+nav #btn-menu:focus {
+  background-color: var(--c1);
+  color: #fff;
+}
+
 nav ul {
 	list-style-type: none;
 	display:flex;
